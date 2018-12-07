@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://0.0.0.0:5432/starter
+    username: postgres
+    password:
+  jpa:
+      properties:
+        hibernate:
+          jdbc:
+            time_zone: UTC
+            lob:
+              non_contextual_creation: true
+          ddl-auto: true

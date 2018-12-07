@@ -1,0 +1,10 @@
+.gradle
+.idea
+build
+out
+
+### Terraform ###
+*.tfvars
+terraform.tf*
+.terraform.tf*
+/terraform/**/.terraform/
